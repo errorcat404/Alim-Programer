@@ -8,7 +8,6 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    user-select: none;
     background-image: url(../img/background.svg);
 }
 .container{
@@ -179,6 +178,7 @@ footer{
     font-size: 24px;
     font-weight: 700;
     text-decoration: none;
+    user-select: none;
 }
 /* .footer__img{
     width: 32px;
