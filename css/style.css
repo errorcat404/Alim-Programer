@@ -171,6 +171,7 @@ footer{
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    position: relative;
 }
 .footer__p{
     color: #FFF;
@@ -179,6 +180,31 @@ footer{
     font-weight: 700;
     text-decoration: none;
     user-select: none;
+}
+#copyText {
+    cursor: pointer;
+}
+
+#notification {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+#notification.show {
+    opacity: 1;
+}
+
+.hidden {
+    display: none;
 }
 /* .footer__img{
     width: 32px;
