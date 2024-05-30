@@ -183,6 +183,7 @@ footer{
 }
 #copyText {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 #notification {
